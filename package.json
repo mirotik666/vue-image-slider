@@ -1,0 +1,30 @@
+{
+  "name": "vue-image-slider",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "vue": "*"
+  },
+  "devDependencies": {
+    "neutrino": "latest",
+    "neutrino-preset-fabrika": "latest"
+  },
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "test": "neutrino test",
+    "test:watch": "neutrino test --watch",
+    "coverage": "neutrino test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirotik666/vue-image-slider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirotik666/vue-image-slider/issues"
+  },
+  "homepage": "https://github.com/mirotik666/vue-image-slider#readme"
+}

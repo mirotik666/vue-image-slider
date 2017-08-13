@@ -1,0 +1,61 @@
+.component-image-slider{
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.component-image-slider>.slider{ 
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+.component-image-slider>.slides>.slide{
+     display: inline-block;
+     vertical-align: middle;
+     width: 100%;
+     height: 100%;
+     background: #000;
+     overflow: hidden;
+    }
+
+.component-image-slider>.slides>.slide>img{ 
+    display: block;
+    width: auto;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform:translateX(-50%);
+
+    
+}
+ .component-image-slider>.prev,
+ .component-image-slider>.next{
+     position: absolute;
+     background: none;
+     border: none;
+     width: 40px;
+     height: 40px;
+     top: 50%;
+     margin-top: -20px;
+     color: #FFF;
+     font-size: 46px;
+    
+ }
+  .component-image-slider>.prev{ 
+    left: 20px;
+    text-shadow: rgb(0, 0, 0 ,0.5)
+      
+  }
+ .component-image-slider>.next{
+      left: 20px;
+ }
+.component-image-slider>.prev: hover,
+.component-image-slider>.next: hover{
+
+}
